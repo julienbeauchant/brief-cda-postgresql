@@ -1,4 +1,4 @@
-| Permissions                           | User | Visitor |
+| Permissions                           | Utilisateurs | Visiteurs |
 |---------------------------------------|------|---------|
 | **Gestion des utilisateurs**          |      |         |
 | Se connecter                          | ✅   | ✅      |
