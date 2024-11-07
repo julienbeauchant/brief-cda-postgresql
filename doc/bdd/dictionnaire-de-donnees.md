@@ -26,3 +26,17 @@
 | `user_uuid`                | UUID              | FOREIGN KEY             | Référence à l'identifiant de l'utilisateur      |
 
 <hr>
+
+## Produits
+
+| Nom du Champ               | Type de Données    | Contrainte              | Description                                     |
+|----------------------------|--------------------|-------------------------|-------------------------------------------------|
+| `product_uuid`             | UUID              | PRIMARY KEY             | Identifiant unique du produit                   |
+| `product_name`             | VARCHAR(100)      | NOT NULL                | Nom du produit                                  |
+| `product_description`      | TEXT              |                         | Description du produit                          |
+| `product_price`            | NUMERIC(10,2)    | NOT NULL                | Prix unitaire du produit                        |
+| `product_quantity`         | INTEGER           | NOT NULL                | Quantité disponible en stock                    |
+| `created_at`               | TIMESTAMP         | NOT NULL                | Date de création du produit                     |
+| `updated_at`               | TIMESTAMP         |                         | Dernière date de mise à jour du produit         |
+
+<hr>
