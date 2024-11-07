@@ -13,3 +13,16 @@
 | `created_at` | TIMESTAMP         | NOT NULL                | Date de création du mot de passe                |
 
 <hr>
+
+## Commandes
+
+| Nom du Champ               | Type de Données    | Contrainte              | Description                                     |
+|----------------------------|--------------------|-------------------------|-------------------------------------------------|
+| `order_number`             | SERIAL            | PRIMARY KEY             | Numéro unique de la commande                    |
+| `order_total_cost_ht`      | NUMERIC(10,2)    | NOT NULL                | Coût total HT de la commande                    |
+| `order_total_quantity`     | INTEGER           | NOT NULL                | Quantité totale de produits dans la commande    |
+| `created_at`               | TIMESTAMP         | NOT NULL                | Date de création de la commande                 |
+| `deliver_at`               | TIMESTAMP         |                         | Date de livraison prévue pour la commande       |
+| `user_uuid`                | UUID              | FOREIGN KEY             | Référence à l'identifiant de l'utilisateur      |
+
+<hr>
