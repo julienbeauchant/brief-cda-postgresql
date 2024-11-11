@@ -8,7 +8,7 @@ Votre Mission Consiste à :
 
 **Analyse des Modèles de Données :**  
 
-- Examiner et comprendre le Modèle Conceptuel de Données (MCD) et le Modèle Logique de - Données (MLD) fournis.
+- Examiner et comprendre le Modèle Conceptuel de Données (MCD) et le Modèle Logique de Données (MLD) fournis.
 - Identifier les entités, attributs et relations clés afin de préparer une implémentation cohérente.  
 
 **Création de la Base de Données :**
