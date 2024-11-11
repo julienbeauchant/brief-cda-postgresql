@@ -1,6 +1,4 @@
-# 📋 Sommaire
-
-## Contexte du projet
+# 📑 Contexte du projet
 
 Vous allez contribuer à la création de "AuBonDeal", une plateforme de commerce en ligne 🚀.  
 Cette initiative vise à proposer une solution performante pour la gestion des transactions commerciales, la mise en relation des vendeurs et acheteurs, et la gestion des produits.  
@@ -27,11 +25,16 @@ Documenter la politique de rétention des sauvegardes en expliquant la fréquenc
 Cette documentation doit également préciser les menaces que la politique de rétention permet de contrer.
  <hr>
 
+# 📋 Sommaire
+
 - **Le disctionnaire de données :**
 ➡️ [Dictionnaire de données](./doc/bdd/dictionnaire-de-donnees.md)
 
 - **La documentation concernant la méthode Merise :**
 ➡️ [Merise](./doc/bdd/merise.md)
+
+- **La documentation concernant la politique de rétention :**
+➡️ [Politique de rétention](./doc/bdd/sauvegarde/politique-de-retention.md)
 
 - **La différence entre MySql et PostgreSql :**
 ➡️ [MySql VS PostgreSql](./doc/benshmarks/mysql-vs-postgresql.md)
