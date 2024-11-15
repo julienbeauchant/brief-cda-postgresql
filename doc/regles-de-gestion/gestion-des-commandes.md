@@ -1,7 +1,7 @@
 # 📦 Règles de gestion côté commandes
 
 - Une commande appartient à un seul et unique utilisateur
-- Une commande doit contenir un ou plusieurs produits
+- Une commande doit contenir un ou N produits
 - Une commande doit avoir un numéro de commande
 - Une commande est composé d'un coût total HT
 - Une commande affiche la quantité totale des produits

@@ -1,4 +1,4 @@
--- Connexion depuis le shell à postgresql en tant qu'utilisateur par défaut : 
+-- Connexion à postgresql en tant qu'utilisateur par défaut : 
 
 psql postgres 
 
